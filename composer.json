@@ -1,0 +1,23 @@
+{
+    "name": "jean-pasqualini/esidebugger",
+    "description": "esi debugger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Pasqualini",
+            "email": "jpasqualini75@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "": "src/",
+            "Tests\\": "Tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-kernel": "^3.1",
+        "symfony/config": "^3.1",
+        "symfony/yaml": "^3.1"
+    }
+}
