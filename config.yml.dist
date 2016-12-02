@@ -1,0 +1,4 @@
+esidebugger:
+    baseUrl: http://www.site.fr
+    patternFragment: fragment
+    mode: iframe

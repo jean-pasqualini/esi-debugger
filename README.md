@@ -22,9 +22,10 @@ It also allows you to identify bad design
 
 2. Copy and paste
 ```
-baseUrl: http://url.fr
-patternFragment: fragment
-mode: iframe
+esidebugger:
+    baseUrl: http://url.fr
+    patternFragment: fragment
+    mode: iframe
 ```
 
 3. Modify the config for your usage

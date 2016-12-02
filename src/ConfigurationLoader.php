@@ -23,6 +23,6 @@ class ConfigurationLoader
     {
         $locator = new FileLocator($this->path);
         $file = $locator->locate($file, null, true);
-        return array('esidebugger' => Yaml::parse(file_get_contents($file)));
+        return Yaml::parse(file_get_contents($file));
     }
 }

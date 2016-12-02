@@ -4,9 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3064437179aaa80c3d4f0353d16a9ee9",
-    "content-hash": "1b22c5db1d2896f36376e3bcefce7a23",
+    "hash": "b21b682d873ac58b6bac51b006ea306c",
+    "content-hash": "4197c36e9df70e55363ffd90ffffe0d8",
     "packages": [
+        {
+            "name": "incenteev/composer-parameter-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Incenteev/ParameterHandler.git",
+                "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
+                "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpspec/prophecy-phpunit": "~1.0",
+                "symfony/filesystem": "~2.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Incenteev\\ParameterHandler\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Composer script handling your ignored parameter file",
+            "homepage": "https://github.com/Incenteev/ParameterHandler",
+            "keywords": [
+                "parameters management"
+            ],
+            "time": "2015-11-10 17:04:01"
+        },
         {
             "name": "psr/log",
             "version": "dev-master",
@@ -60,12 +111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "203e860e096cf30c03bdb1e975468218c0fa35a8"
+                "reference": "dc43722df24b1320e22a0a525a74fed0eba61552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/203e860e096cf30c03bdb1e975468218c0fa35a8",
-                "reference": "203e860e096cf30c03bdb1e975468218c0fa35a8",
+                "url": "https://api.github.com/repos/symfony/config/zipball/dc43722df24b1320e22a0a525a74fed0eba61552",
+                "reference": "dc43722df24b1320e22a0a525a74fed0eba61552",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +159,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-19 20:35:20"
+            "time": "2016-11-29 11:12:53"
         },
         {
             "name": "symfony/debug",
@@ -335,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "9e5a028c8ee22f33f07a8e63b5ec8caad4b22392"
+                "reference": "f87122dad2b07c804a40e92f53613e9b382064ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/9e5a028c8ee22f33f07a8e63b5ec8caad4b22392",
-                "reference": "9e5a028c8ee22f33f07a8e63b5ec8caad4b22392",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f87122dad2b07c804a40e92f53613e9b382064ff",
+                "reference": "f87122dad2b07c804a40e92f53613e9b382064ff",
                 "shasum": ""
             },
             "require": {
@@ -409,7 +460,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-24 21:23:15"
+            "time": "2016-12-02 11:40:47"
         },
         {
             "name": "symfony/polyfill-mbstring",
