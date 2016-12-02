@@ -62,6 +62,9 @@ class AppKernel implements HttpKernelInterface
                             'header' => array(
                                 'Surrogate-Capability: abc=ESI/1.0'.PHP_EOL
                             )
+                        ),
+                        'ssl' => array(
+                            'verify_peer' => false,
                         )
                     )
                 )
