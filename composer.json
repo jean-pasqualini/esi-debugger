@@ -1,0 +1,14 @@
+{
+    "name": "jean-pasqualini/esidebugger",
+    "description": "esi debugger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Pasqualini",
+            "email": "jpasqualini75@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    }
+}
