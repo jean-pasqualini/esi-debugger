@@ -14,21 +14,11 @@ It also allows you to identify bad design
 
 1. Install composer
 
-2. Run composer \create-project jean-pasqualini/esi-debugger ./esi-debugger
+2. Run git clone https://github.com/jean-pasqualini/esi-debugger.git -b 0.1 ./esi-debugger
 
 3. Go to ./esi-debugger
 
-1. Create config.yml at ./
-
-2. Copy and paste
-```
-esidebugger:
-    baseUrl: http://url.fr
-    patternFragment: fragment
-    mode: iframe
-```
-
-3. Modify the config for your usage
+4. Run composer install --no-dev
 
 #### Run
 
